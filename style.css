@@ -17,3 +17,15 @@ p {
 a {
 	color: #5b7ef0
 	}
+
+div {
+	border-width: 1px;
+	border-style: dashed;
+	border-color: white;
+	}	
+#main{
+	background-color:#3D2F38;}
+#Contact{
+	background-color:#5E3851;}
+#Footer{
+	background-color:#300E07;}

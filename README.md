@@ -30,7 +30,7 @@ This website includes (or will eventually include!):
 
 ## Repository Naming
 
-This repo was renamed from `yourusername.github.io` to `durtnurs.github.io` to better reflect its purpose and make it easier to manage alongside other projects.
+This repo was renamed from `CuWilliams.github.io` to `durtnurs.github.io` to better reflect its purpose and make it easier to manage alongside other projects.
 
 ---
 
@@ -38,7 +38,7 @@ This repo was renamed from `yourusername.github.io` to `durtnurs.github.io` to b
 
 - Domain: `durtnurs.com`
 - DNS: Managed via Cloudflare
-- GitHub Pages still uses `yourusername.github.io` as the CNAME target
+- GitHub Pages still uses `CuWilliams.github.io` as the CNAME target
 - Custom domain is configured using a `CNAME` file in the repo root
 
 ---
@@ -49,4 +49,4 @@ To update the site:
 
 1. Clone the repo:
    ```bash
-   git clone https://github.com/yourusername/yourbandname-site.git
+   git clone https://github.com/CuWilliams/durtnurs.git

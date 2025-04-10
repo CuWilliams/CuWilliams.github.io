@@ -1,86 +1,71 @@
-/* this is a comment */
+/* General layout and reset */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+}
 
-body { 
-	font-family: Arial, Helvetica, sans-serif; 
-	background-color: #300E07;
-	color: #ffffff;}
+/* Responsive page wrapper */
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+}
 
-h1 { 
-	font-size: 300%;
-	text-align: center;
-	}
+/* Main title style */
+h1 {
+  color: #ff33cc;
+  font-size: 8vw;
+  text-align: center;
+  margin-top: 2rem;
+}
 
-p { 
-	font-size: 120%;
-	line-height: 1.75;
-	text-align: center;}
-	
-a {
-	color: #5b7ef0;
-	text-decoration: none;}
+/* Tagline or paragraph style */
+p {
+  font-size: 4vw;
+  max-width: 800px;
+  margin: 1rem auto;
+  text-align: center;
+}
 
-div {
-	border-width: 1px;
-	border-style: dashed;
-	border-color: transparent;
-	border-radius: 20px;}	
-	
-.right {
-	float: right;}
-	
-img.snapshot-1 {
-	border-width: 10px;
-	border-style: solid;
-	border-color: #ffffff;
-	box-shadow: 10px 10px 15px rgba(0,0,0,.3);
-	margin: 10px 20px 40px 30px;
-	-moz-transform: rotate(5deg);
-	-webkit-transform: rotate(5deg):
-	-o-transform: rotate(5deg);
-	-ms-transform: rotate(5deg);}
+/* Responsive image styling */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 2rem auto;
+  border: 5px solid white;
+  box-sizing: border-box;
+}
 
-img.snapshot-2 {
-	border-width: 10px;
-	border-style: solid;
-	border-color: #ffffff;
-	box-shadow: 10px 10px 15px rgba(0,0,0,.3);
-	margin: 10px 20px 40px 30px;
-	-moz-transform: rotate(-5deg);
-	-webkit-transform: rotate(-5deg):
-	-o-transform: rotate(-5deg);
-	-ms-transform: rotate(-5deg);}
+/* Optional utility class if needed */
+.centered-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
-#main {
-	background-color:#3D2F38;
-	padding: 30px;
-	box-shadow: 10px 10px 15px rgba(0,0,0,.25);
-	}
-	
-#contact {
-	background-color:#5E3851;
-	color: #0F0F0F;
-	width: 50%;
-	text-align: center;
-	margin: auto;
-	clear: both;
-	box-shadow: 5px 5px 15px rgba(0,0,0,.25);}
-	
-#contact a {
-	color: #0F0F0F;
-	}
-	
-#contact a:hover {
-	color: #9C0b40;}
+/* Larger screen overrides */
+@media screen and (min-width: 768px) {
+  h1 {
+    font-size: 64px;
+  }
 
-#footer {
-	text-align: center;
-	font-size: 50%;
-	padding: 15px;}
+  p {
+    font-size: 20px;
+  }
+}
 
-#everything {
-	width: 80%;
-	margin: auto;
-	margin-top: 50px;}
+/* Smaller screen tweaks */
+@media screen and (max-width: 480px) {
+  h1 {
+    font-size: 10vw;
+  }
 
-#footer img {
-	margin: 15px;}
+  p {
+    font-size: 5vw;
+  }
+}
